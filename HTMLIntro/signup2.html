@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Successful</title>
+</head>
+<body>
+    <script type="text/JavaScript"> 
+        var url = new URL(window.location.toLocaleString());
+        var email = url.searchParams.get("email");
+        console.log(email);
+        document.body.innerHTML = "<img><a href=\"./index.html\"><img src=\"images/face.gif\" alt=\"Matts Silly Face\" width=\"20%\"></a><br><h1>Thanks for signing up " + email + "</h1>"
+        </script>
+</body>
+</html>
